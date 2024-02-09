@@ -1,0 +1,21 @@
+
+.cardss {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 15px;
+}
+.card {
+	width: calc(50% - 20px);
+	margin: 15px 0;
+	img {
+		width: 45%;
+		height: auto;
+	}
+	.card-body {
+		padding: 1rem;
+	}
+	.card-text {
+		font-size: 1rem;
+	}
+}

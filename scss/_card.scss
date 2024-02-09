@@ -1,0 +1,54 @@
+$color_1: white;
+$background-color_1: #D81B60;
+
+a.botonCard {
+	background-color: $background-color_1;
+	background-image: linear-gradient(to bottom,red,#524E4E );
+	color: $color_1;
+	border: none;
+	padding: 8px 20px;
+	text-decoration: none;
+	border-radius: 20px;
+	&:hover {
+		background-image: linear-gradient(to bottom, black, #46fcde);
+	}
+}
+
+.cardProductos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 20px;
+	margin: 10px 8px;
+	.card {
+		width: calc(50% - 20px);
+		margin-bottom: 20px;
+		.imgProductos {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+}
+.card 
+	.imgProductos {
+		width: 100%;
+		height: 300px;
+		.card .imgproductoss { width: 100%;
+		height: 100px;
+	}
+}
+.cardProductoss {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 10px;
+	.card-setup {
+		width: calc(30% - 8px);
+		margin-bottom: 5px;
+		.card-img {
+			width: 118%;
+			height: 350px;
+		}
+	}
+}

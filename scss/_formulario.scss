@@ -1,0 +1,60 @@
+
+$color_1: black;
+$color_2: #fff;
+$background-color_1: gray;
+$background-color_2: black;
+$background-color_3: #333;
+
+/* Estilos para los números de teléfono */
+.formulario-contacto {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: $background-color_1;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: $background-color_1;
+	padding: 20px;
+	.form-control {
+		margin-bottom: 20px;
+	}
+	.form-check {
+		margin-bottom: 20px;
+	}
+	.fas {
+		color: $color_1;
+	}
+	p {
+		color: $color_1;
+	}
+	.boton {
+		padding: 10px 20px;
+		background-color: $background-color_2;
+		color: $color_2;
+		border: none;
+		cursor: pointer;
+		transition: background-color 0.3s ease;
+		&:hover {
+			background-color: $background-color_3;
+		}
+	}
+}
+.mapa-contacto {
+	width: 100%;
+	margin-bottom: 50px;
+	width: 100%;
+	margin-bottom: 50px;
+}
+.contact-link {
+	text-decoration: none;
+}
+.formu {
+	color: $color_1;
+}
+.columna {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
