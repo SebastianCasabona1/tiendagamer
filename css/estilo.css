@@ -5,7 +5,7 @@ body {
 
 a.botonCard {
   background-color: #D81B60;
-  background-image: linear-gradient(to bottom, red, #524E4E);
+  background-image: linear-gradient(to bottom, black, #524E4E);
   color: white;
   border: none;
   padding: 8px 20px;
@@ -126,7 +126,7 @@ h1 {
   transform: scale(1.1);
 }
 
-/* Estilos para los números de teléfono */
+
 .formulario-contacto {
   display: flex;
   flex-wrap: wrap;
@@ -213,6 +213,23 @@ h1 {
 @media (max-width: 576px) {
   .card-setup {
     flex-basis: 100%;
+  }
+}
+@media (max-width: 350px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  .formulario-contacto input {
+    font-size: 0.7rem;
+  }
+  .formulario-contacto select {
+    font-size: 0.7rem;
+  }
+  .formulario-contacto button {
+    font-size: 0.7rem;
   }
 }
 

@@ -33,3 +33,25 @@ $background-color_1: #fff;
 		flex-basis: 100%;
 	}
 }
+
+
+@media (max-width: 350px) {
+	h1 {
+		font-size: 1.5rem;
+	}
+	p {
+		font-size: 0.8rem;
+	}
+	.formulario-contacto {
+		input {
+			font-size: 0.7rem;
+		}
+		select {
+			font-size: 0.7rem;
+		}
+		button {
+			font-size: 0.7rem;
+		}
+	}
+}
+
