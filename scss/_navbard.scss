@@ -1,0 +1,35 @@
+$color_1: #fafafa;
+$color_2: white;
+$background-color_1: black;
+$background-color_2: #D81B60;
+$background-color_3: #b5164e;
+
+.navbar {
+	.barra {
+		background-color: $background-color_1;
+		a {
+			color: $color_1;
+		}
+	}
+}
+.boton {
+	input[type="submit"] {
+		background-color: $background-color_2;
+		color: $color_2;
+		border: none;
+		padding: 8px 20px;
+		&:hover {
+			background-color: $background-color_3;
+		}
+	}
+	button {
+		background-color: $background-color_2;
+		color: $color_2;
+		border: none;
+		padding: 8px 20px;
+		&:hover {
+			background-color: $background-color_3;
+		}
+	}
+}
+
